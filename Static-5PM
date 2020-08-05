@@ -1,0 +1,26 @@
+Static Members in C++:
+
+-static local variables
+-static member variables
+-static member functions
+
+-Static Local Variables:
+
+-- Concepts as it is taken from C
+-- They are by default initialized
+-- Their lifetime is throughout the program
+
+-Static Member Variables:
+
+--Declared inside the class body
+--It is also called class member variable
+--They must be defined outside the class
+--Static member variable does not belong to any object, but to the whole class.
+--There will be onle one copy of static member variable for the whole class.
+
+-Static Member Functions:
+
+--They are qualified with the keyword static.
+--They are also called class member functions
+--They can be invoked/called with or without object.
+--They can only access static members of the class.
