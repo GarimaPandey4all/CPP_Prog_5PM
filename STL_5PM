@@ -1,0 +1,72 @@
+STL in C++:
+
+STL: Standard Template Library
+
+Template: Generic Programming--> that accepts different types of data
+
+-It is a powerful set of C++ template classes.
+
+It has three well - structured components:
+
+1. Containers
+2. Algorithms
+3. Iterators
+
+Containers:
+
+-Containers are used to manage collections of objects of a certain kind.
+-Container library in STL provide containers that are used to create data structures like array, linked list, stack, queue, trees etc.
+-These container are generic they can hold elements of any data type.
+
+Algorithms:
+
+-Algortihms act on containers. They provide the means which you will perform initialization, sorting, searching, and transforming of the contents of containers.
+-Algorithms library contains built in functions/operations that performs complex algorithms on the data structures.
+
+Iterators : Repetition
+
+-Iterators are used to step through the elements of collections of objects. These collections may be containers or subsets of containers.
+-Iterators in STL are used to point to the containers.
+-Iterators actually acts as a bridge b/w containers and algorithms.
+
+STL Containers:
+
+-Container library is a collection of classes.
+-The containers are implemented as generic class templates.
+-Containers help us to implement and replicate simple and complex data structures very easily like arrays, list, trees , associative arrays and many more.
+-Containers cause used to hold different kind of objects.
+
+stack s1;
+
+s1.push(); // insert
+s1.pop(); //remove/delete
+
+-Common Containers:
+
+1. vector : replicate arrays
+2. queue  : replicate queues
+3. stack  : replicate stack
+4. list   : replicate linked list
+5. map    : associative arrays
+
+-Classification of containers:
+
+-Sequence Containers:
+-like array, linked list etc
+-Associative Containers:
+-Sorted Data Structures like map, set etc
+-Unsorted Associative Containers:
+-Unsorted Data structures
+
+--> How to use container library:
+-When we use list containers to implement linked list we just have to include the list header file and use list constructor to initialize the list.
+
+For Example:
+
+#include <iostream>
+#include <list>
+
+void main()
+{
+	list<int> mylist;
+}
